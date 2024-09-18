@@ -44,25 +44,28 @@
     .nav-options a {
         margin: 1rem;
     }
+}
+
+@media (max-width: 1007px) {
+    html {
+        font-size: 12px;
+    }
 
     .about-section {
         flex-direction: column;
-    }
-
-    .about-description-container {
-        width: 100%;
-        margin: 4rem 0;
     }
 
     .about-image-container {
         width: 100%;
     }
 
-}
+    .about-image-container img {
+        width: 30%;
+    }
 
-@media (max-width: 1007px) {
-    html {
-        font-size: 12px;
+    .about-description-container {
+        width: 100%;
+        margin-top: 2rem;
     }
 
     .project-card {
